@@ -1,0 +1,33 @@
+{
+	"item.mod1.example_item": "Example Item",
+	"item.mod1.test_item": "Test Item",  
+	"item.mod1.test_itemsword": "Test Itemsword",
+	"item.mod1.test_frisbee": "Test Frisbee",
+	
+	"item.mod1.example_sword": "Example Sword",
+	"item.mod1.example_pickaxe": "Example Pickaxe",
+	"item.mod1.example_shovel": "Example Shovel",
+	"item.mod1.example_axe": "Example Axe",
+	"item.mod1.example_hoe": "Example Hoe",
+	
+	"item.mod1.test_helmet": "Test Helmet",
+	"item.mod1.test_chestplate": "Test Chestplate",
+	"item.mod1.test_leggings": "Test Leggings",
+	"item.mod1.test_boots": "Test Boots",
+	
+	"block.mod1.example_block": "Example Block",
+	"block.mod1.poop_block": "Poop Block",
+	"block.mod1.paper_block": "Paper Block",
+	"block.mod1.porcelain_block": "Porcelain Block",
+	"block.mod1.jade_block": "Jade Block",
+	"block.mod1.jade_ore": "Jade Ore",
+	"block.mod1.cardboard": "Cardboard",
+	"block.mod1.feather_block": "Feather Block",
+	"block.mod1.cheese_block": "Cheese Block",
+	"block.mod1.sugar_block":"Sugar Block",
+	
+	
+	"itemGroup.mod1tab": "Mod Tab"
+	
+	
+}
