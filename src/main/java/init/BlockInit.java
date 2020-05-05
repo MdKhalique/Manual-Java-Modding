@@ -14,6 +14,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ObjectHolder;
+import objects.blocks.BlockMill;
 import objects.blocks.BlockQuarry;
 @ObjectHolder(Mod1.MOD_ID)
 @Mod.EventBusSubscriber(modid = Mod1.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -31,7 +32,7 @@ public class BlockInit {
 	public static final Block cheese_block = null;
 	
 	public static final Block quarry = null;
-
+	public static final Block mill = null;
 
 	
 	@SubscribeEvent
@@ -49,6 +50,8 @@ public class BlockInit {
 	event.getRegistry().register(new Block(Block.Properties.create(Material.TALL_PLANTS).hardnessAndResistance(1.0f, 13.0f).sound(SoundType.GROUND)).setRegistryName("cheese_block"));
 	
 	event.getRegistry().register(new BlockQuarry(Block.Properties.create(Material.ICE).hardnessAndResistance(100f).sound(SoundType.SNOW)).setRegistryName("quarry"));
+	
+	event.getRegistry().register(new BlockMill(Block.Properties.create(Material.ROCK).hardnessAndResistance(100f).sound(SoundType.ANVIL))setRegistryName("mill"));
 	}
 
 		//You have more sound options than just sand and two parenthesis after the sand, if you put a period(.) a whole set of option pop up for more changes towards blocks
@@ -68,6 +71,8 @@ public class BlockInit {
 		event.getRegistry().register(new BlockItem(feather_block, new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)).setRegistryName("cheese_block"));
 		
 		event.getRegistry().register(new BlockItem(quarry, new Item.Properties().group(Mod1ItemGroup.instance)).setRegistryName("quarry"));
+	
+		event.getRegistry().register(new BlockItem(mill, new Item.Properties().group(Mod1ItemGroup.instance)).setRegistryName("mill"));
 	}//you can add another period between the parenthesis of protperties()) and make it look like properties().) and it give more options for properties. Just like I did maxstacksize
 	
 }
