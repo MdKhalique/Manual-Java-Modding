@@ -1,4 +1,4 @@
-package com.ShiftyJumper.Mod1.events;
+package events;
 
 import com.ShiftyJumper.Mod1.Mod1;
 

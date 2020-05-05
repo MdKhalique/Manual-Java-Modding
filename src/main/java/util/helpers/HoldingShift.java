@@ -1,4 +1,4 @@
-package com.ShiftyJumper.Mod1.util.helpers;
+package util.helpers;
 
 
 import org.lwjgl.glfw.GLFW;

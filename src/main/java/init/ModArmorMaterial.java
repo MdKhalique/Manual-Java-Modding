@@ -1,3 +1,4 @@
+package init;
 /*package com.ShiftyJumper.Mod1.init;
 
 import java.util.function.Supplier;
@@ -81,4 +82,4 @@ public enum ModArmorMaterial implements IArmorMaterial
 		return this.toughness;
 	}
 }
- */
+*/

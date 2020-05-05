@@ -5,8 +5,8 @@ import java.util.stream.Collectors;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.ShiftyJumper.Mod1.init.BlockInit;
-
+import init.BlockInit;
+import init.ModTileEntityTypes;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
@@ -51,6 +51,8 @@ public class Mod1
        modEventBus.addListener(this::processIMC);
         // Register the doClientStuff method for modloading
         modEventBus.addListener(this::doClientStuff);
+      
+        ModTileEntityTypes.TILE_ENTITY_TYPES.register(modEventBus);
         
         instance = this; 
 

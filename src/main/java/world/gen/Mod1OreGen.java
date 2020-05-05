@@ -1,7 +1,6 @@
 package world.gen;
 
-import com.ShiftyJumper.Mod1.init.BlockInit;
-
+import init.BlockInit;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.biome.Biomes;
 import net.minecraft.world.gen.GenerationStage;

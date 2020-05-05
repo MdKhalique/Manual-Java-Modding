@@ -1,7 +1,6 @@
 package com.ShiftyJumper.Mod1;
 
-import com.ShiftyJumper.Mod1.init.ItemInit;
-
+import init.ItemInit;
 import net.minecraft.item.Item;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.util.ResourceLocation;

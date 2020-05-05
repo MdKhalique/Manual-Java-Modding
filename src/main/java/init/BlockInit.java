@@ -1,7 +1,7 @@
-package com.ShiftyJumper.Mod1.init;
+package init;
 
 import com.ShiftyJumper.Mod1.Mod1;
-import com.ShiftyJumper.Mod1.objects.blocks.BlockQuarry;
+import com.ShiftyJumper.Mod1.Mod1.Mod1ItemGroup;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -14,6 +14,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ObjectHolder;
+import objects.blocks.BlockQuarry;
 @ObjectHolder(Mod1.MOD_ID)
 @Mod.EventBusSubscriber(modid = Mod1.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 
@@ -66,7 +67,7 @@ public class BlockInit {
 		event.getRegistry().register(new BlockItem(feather_block, new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)).setRegistryName("feather_block"));
 		event.getRegistry().register(new BlockItem(feather_block, new Item.Properties().maxStackSize(64).group(ItemGroup.BUILDING_BLOCKS)).setRegistryName("cheese_block"));
 		
-		event.getRegistry().register(new BlockQuarry);
+		event.getRegistry().register(new BlockItem(quarry, new Item.Properties().group(Mod1ItemGroup.instance)).setRegistryName("quarry"));
 	}//you can add another period between the parenthesis of protperties()) and make it look like properties().) and it give more options for properties. Just like I did maxstacksize
 	
 }

@@ -1,8 +1,8 @@
-package com.ShiftyJumper.Mod1.events;
+package events;
 
 import com.ShiftyJumper.Mod1.Mod1;
-import com.ShiftyJumper.Mod1.init.BlockInit;
 
+import init.BlockInit;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;

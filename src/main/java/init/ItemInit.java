@@ -1,12 +1,9 @@
-package com.ShiftyJumper.Mod1.init;
+package init;
 
 import java.util.function.Supplier;
 
 import com.ShiftyJumper.Mod1.Mod1;
 import com.ShiftyJumper.Mod1.Mod1.Mod1ItemGroup;
-import com.ShiftyJumper.Mod1.objects.items.ChaosItem;
-import com.ShiftyJumper.Mod1.objects.items.FireItem;
-import com.ShiftyJumper.Mod1.objects.items.SpecialItem;
 
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
@@ -32,6 +29,9 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.ObjectHolder;
+import objects.items.ChaosItem;
+import objects.items.FireItem;
+import objects.items.SpecialItem;
 
 @Mod.EventBusSubscriber(modid = Mod1.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD) 
 @ObjectHolder(Mod1.MOD_ID)

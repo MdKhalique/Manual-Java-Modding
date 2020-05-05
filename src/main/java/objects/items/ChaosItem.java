@@ -1,8 +1,6 @@
-package com.ShiftyJumper.Mod1.objects.items;
+package objects.items;
 
 import java.util.List;
-
-import com.ShiftyJumper.Mod1.util.helpers.KeyboardHelper;
 
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.player.PlayerEntity;
@@ -13,6 +11,7 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.world.World;
+import util.helpers.KeyboardHelper;
 
 public class ChaosItem extends Item {
 
